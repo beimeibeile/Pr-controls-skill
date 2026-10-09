@@ -33,18 +33,30 @@ metadata:
 
 > **Adobe Premiere Pro 智能管理与控制框架** —— 让 Pr 工程从二进制变成可程序化操作的对象。工程解析 + 生成 + 修改 + 特效迁移 + 模板管理，全链路自动化。
 
-## 姊妹项目（航空母舰战斗群）
+## 姊妹项目（8姊妹skill）
 
 | 项目 | 定位 | 角色 |
 |------|------|------|
-| **ai-video-editor** | AI视频剪辑框架 | 🚢 航空母舰（集成平台） |
-| **jianying-editor** | 剪映工程控制 | 🎬 主剪辑台 |
-| **Pr-controls-skill** | Premiere Pro控制（本项目） | 🎞️ 专业剪辑台 |
-| **Comfyui-controls-skill** | ComfyUI智能管理 | 🚀 AI算力生成 |
-| **Blender-controls-skill** | Blender智能管理 | 🎨 3D合成特效 |
-| **anysearch-skill** | 深度搜索技能 | 📡 情报搜索 |
+| **ai-video-editor** | AI视频剪辑框架（大脑/集成平台） | 🚢 航空母舰 |
+| **jianying-editor** | 剪映工程控制 | ✂️ 剪辑底层 |
+| **Pr-controls-skill** | Premiere Pro控制（本项目） | 🎬 专业剪辑 |
+| **Ps-controls-skill** | Photoshop控制 | 🖼️ 图像处理 |
+| **Comfyui-controls-skill** | ComfyUI智能管理 | 🚀 AI算力 |
+| **Blender-controls-skill** | Blender智能管理 | 🎨 3D特效 |
+| **remotion-controls-skill** | Remotion代码动画 | 💻 代码动画 |
+| **anysearch-skill** | 深度搜索 | 📡 情报搜索 |
 
-> 单体都能干活，任意组合互相增强。
+> 单体都能干活，任意组合互相增强。能力注册中心v3.2统一调度，智能路由选择最佳skill。
+
+## 核心能力（模块下沉后）
+
+本skill已接收ai-video-editor下沉的2个Pr工程模块，具备完整独立工作能力：
+
+- **Pr工程执行器**：prproj_executor（模板管理/信息提取/渲染）
+- **Pr模板修改器**：prproj_template_modifier
+- **Pr工程解析器**：prproj_parser（gzip压缩XML解析）
+- **Pr工程生成器**：prproj_generator（从零生成.prproj）
+- **Pr转剪映**：prproj_to_jianying（50+特效/50+转场迁移）
 
 ## 核心能力
 
