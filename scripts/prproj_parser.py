@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 P2-6 阶段1: Pr工程(.prproj)解析器
